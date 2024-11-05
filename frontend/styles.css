@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container{
+    background-image: linear-gradient(to right, rgba(244, 243, 249, 0.484),rgba(186, 195, 227, 0.648), rgb(238, 241, 243));
+    width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    background-size: cover;
+}
+.title{
+    
+    color: rgb(5, 3, 63);
+}
+
+.todo-application{
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+.add-task{
+    margin-left: 20px;
+}
+.create-todo{
+    padding:10px;
+}
+.todo-user-input {
+    background-color: white;
+    width: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+  }
+
+.tasks-container{
+    max-width: 900px;
+    height: 400px;
+    border-radius: 10px;
+    overflow-y: auto;
+    background-image: linear-gradient(to right,rgba(94, 195, 236, 0.194),rgba(102, 234, 223, 0.292),rgba(55, 132, 198, 0.283));
+}
+.add-btn{
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+.add-task{
+    color: rgb(5, 5, 70);
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.my-task{
+    color: rgb(5, 5, 70);
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.checkbox-input{
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+}
+.label-text{
+    margin-top: 6px;
+    margin-left: 6px;
+    color: rgb(38, 5, 95);
+    font-family: sans-serif;
+}
+.todo-ele{
+    margin-bottom: 10px;
+}
+.label-container{
+    background-color: #e7f3faf9;
+    width: 50%;
+    border-style: solid;
+    border-left: none;
+    border-color: #ef6408a9;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+    margin-left: 5px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.delete-icon-container{
+    text-align: center;
+    margin-top: 8px;
+    width: 18%;
+}
+.checked{
+    text-decoration: line-through;
+}
+.todo-item-container {
+    margin-top: 15px;
+  }
+.checkbox-label {
+    color: rgb(6, 4, 32);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+  .delete-icon{
+    color: black;
+    height: 30px;
+}
+
+@media (max-width: 500px) {
+    .todo-application {
+      margin-left: 0px;
+      width: 100vw;
+      background-color: red !important;
+    }
+    .add-task {
+      margin-left: 0px;
+      font-size: 12px;
+    }
+    .todo-user-input {
+      background-color: white;
+      width: 100%;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #e4e7eb;
+      border-radius: 10px;
+      margin-top: 10px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding: 8px;
+      outline: none;
+    }
+    .add-btn {
+      margin-left: 4px;
+      margin-bottom: 20px;
+    }
+}
+  
